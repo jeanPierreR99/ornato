@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/public/logo-main.ico">
+    <title>B2 - PALO BASTON | Municipalidad Provincial de Tambopata</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(to bottom, #f0fdf4, #dcfce7);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .dancing {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .hero {
+            background: linear-gradient(to bottom, rgba(5, 40, 15, 0.75), rgba(0, 80, 30, 0.9)),
+                url('/public/hero.jpg') center/cover no-repeat;
+            position: relative;
+        }
+
+        .leaf-deco {
+            position: absolute;
+            font-size: 6rem;
+            opacity: 0.1;
+            pointer-events: none;
+            animation: float 25s infinite linear;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            100% {
+                transform: translateY(-100vh) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body class="text-gray-800 overflow-x-hidden">
+    <!-- HERO -->
+    <header class="hero relative text-white py-40 px-6 text-center overflow-hidden">
+        <div class="leaf-deco left-10 top-20">🌿</div>
+        <div class="leaf-deco right-20 top-40" style="animation-delay: 5s;">🌸</div>
+        <div class="leaf-deco left-32 top-80" style="animation-delay: 10s;">🌳</div>
+        <div class="relative z-10 container mx-auto max-w-7xl">
+            <p class="text-2xl md:text-3xl font-light tracking-widest text-emerald-200 mb-4">MUNICIPALIDAD PROVINCIAL DE
+                TAMBOPATA</p>
+            <h1 class="text-6xl md:text-8xl font-black leading-none mb-6">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-emerald-300">B2 -
+                    PALO BASTON</span>
+            </h1>
+            <p class="text-4xl md:text-6xl dancing text-yellow-300 mb-6">Palo bastón, palo de Brasil, tronco de Brasil,
+                árbol de la felicidad</p>
+        </div>
+    </header>
+
+    <section class="py-20 px-6 bg-white">
+        <div class="text-justify">
+            <div class="">
+                <div class="container mx-auto max-w-6xl">
+                    <h2 class="text-5xl font-bold text-emerald-700 mb-8 text-center">
+                        Palo Bastón
+                    </h2>
+                    <p class="text-center leading-relaxed text-lg text-gray-600 max-w-4xl mx-auto mb-12">
+                        En la Amazonía peruana, especialmente en Madre de Dios, el nombre común Palo Bastón se utiliza
+                        para la especie Aspidosperma macrocarpon Mart., un árbol forestal nativo de la familia
+                        Apocynaceae, apreciado por la resistencia de su madera y su importancia ecológica.
+                    </p>
+
+                    <!-- Dimensiones y Coordenadas -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                        <div class="bg-white p-8 rounded-2xl shadow">
+                            <h3 class="text-2xl font-semibold text-emerald-700 mb-6">DIMENSIONES</h3>
+                            <p><strong>Altura:</strong> 6 metros</p>
+                            <p><strong>DAP:</strong> 14 centímetros</p>
+                        </div>
+                        <div class="bg-white p-8 rounded-2xl shadow">
+                            <h3 class="text-2xl font-semibold text-emerald-700 mb-6">COORDENADAS</h3>
+                            <p><strong>Este (E):</strong> 480841.223</p>
+                            <p><strong>Norte (N):</strong> 8607767.408</p>
+                            <p><strong>Zona / Datum:</strong> 19L / WGS 84</p>
+                        </div>
+                    </div>
+
+                    <!-- Ubicación -->
+                    <div class="mb-16">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-6">1. UBICACIÓN</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Está ubicada en la plaza de armas de la ciudad de Puerto Maldonado ubicado en Jr. Loreto
+                            (frente a la heladería Gustitos del Cura y Empresa Prestadora de Servicios Públicos -
+                            Electro Sur Este) del distrito de Tambopata, provincia de Tambopata Región de Madre de Dios.
+                        </p>
+                    </div>
+
+                    <!-- Clasificación Taxonómica -->
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">2. CLASIFICACIÓN TAXONÓMICA</h3>
+                        <table class="w-full border-collapse border border-emerald-300">
+                            <thead>
+                                <tr class="bg-emerald-700 text-white">
+                                    <th class="border border-emerald-300 p-4 text-left">Categoría</th>
+                                    <th class="border border-emerald-300 p-4 text-left">Clasificación</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Reino</td>
+                                    <td class="border border-emerald-300 p-4">Plantae</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">División</td>
+                                    <td class="border border-emerald-300 p-4">Magnoliophyta (Angiospermas)</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Clase</td>
+                                    <td class="border border-emerald-300 p-4">Magnoliopsida (Dicotiledóneas)</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Orden</td>
+                                    <td class="border border-emerald-300 p-4">Gentianales</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Familia</td>
+                                    <td class="border border-emerald-300 p-4">Apocynaceae</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Género</td>
+                                    <td class="border border-emerald-300 p-4">Aspidosperma</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Especie</td>
+                                    <td class="border border-emerald-300 p-4">Aspidosperma macrocarpon Mart.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Sección dos columnas -->
+                <section class="py-20 px-6 bg-gradient-to-b -mx-6 from-emerald-50 to-white">
+                    <div class="container mx-auto max-w-6xl">
+                        <div class="text-center mb-16">
+                            <h2 class="text-4xl font-bold text-emerald-700 mb-4">Aspidosperma macrocarpon Mart.</h2>
+                            <p class="text-gray-600 text-lg max-w-3xl mx-auto">
+                                Árbol forestal nativo apreciado por la resistencia de su madera y su importancia
+                                ecológica en la Amazonía.
+                            </p>
+                        </div>
+                        <div class="grid lg:grid-cols-2 gap-12">
+                            <!-- Clasificación científica -->
+                            <div
+                                class="bg-emerald-500 border border-emerald-200 rounded-3xl shadow-xl p-10 backdrop-blur-sm relative overflow-hidden">
+                                <div
+                                    class="absolute -top-10 -right-10 w-40 h-40 bg-emerald-200 rounded-full opacity-30">
+                                </div>
+                                <div
+                                    class="absolute -bottom-10 -left-10 w-60 h-60 bg-yellow-200 rounded-full opacity-30">
+                                </div>
+                                <h3 class="text-3xl font-semibold text-white mb-6">Clasificación científica</h3>
+                                <ul class="space-y-3 text-lg text-gray-100">
+                                    <li><b>Reino:</b> Plantae</li>
+                                    <li><b>División:</b> Magnoliophyta (Angiospermas)</li>
+                                    <li><b>Clase:</b> Magnoliopsida (Dicotiledóneas)</li>
+                                    <li><b>Orden:</b> Gentianales</li>
+                                    <li><b>Familia:</b> Apocynaceae</li>
+                                    <li><b>Género:</b> Aspidosperma</li>
+                                    <li><b>Especie:</b> Aspidosperma macrocarpon Mart.</li>
+                                </ul>
+                            </div>
+                            <!-- Características -->
+                            <div class="bg-white shadow-xl border border-gray-200 rounded-3xl p-10 leading-relaxed">
+                                <h3 class="text-3xl font-semibold text-emerald-700 mb-6">Características</h3>
+                                <p class="text-gray-700 mb-4">
+                                    Árbol de madera resistente con tallo recto y cilíndrico, apreciado en la Amazonía
+                                    por su valor forestal y ecológico.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contenido completo -->
+                <div class="container mx-auto max-w-6xl">
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">3. CARACTERÍSTICAS BOTANICAS</h3>
+                        <div class="float-left md:mr-4 mb-3 w-full md:w-[500px] space-y-2">
+                            <img src="/public/B2.png" alt="Palo Bastón" class="w-full h-[550px] shadow-lg rounded" />
+                        </div>
+                        <ul class="space-y-4 text-gray-700">
+                            <li><strong>Tipo de planta:</strong> Arbusto perenne de porte ornamental. Crecimiento lento
+                                a moderado. En condiciones naturales puede alcanzar 3 a 6 metros de altura.</li>
+                            <li><strong>Tallo:</strong> Leñoso, recto y cilíndrico. Color marrón grisáceo. Presenta
+                                aspecto de “bastón” o caña, de donde proviene su nombre común. Produce brotes de hojas
+                                en la parte superior.</li>
+                            <li><strong>Hojas:</strong> Simples, largas y lanceoladas. Color verde brillante; algunas
+                                variedades tienen franjas amarillas o verde claro. Se agrupan formando rosetas en la
+                                punta de los tallos.</li>
+                            <li><strong>Flores:</strong> Pequeñas y aromáticas. Color blanco a crema. Se agrupan en
+                                inflorescencias ramificadas. Florece principalmente en plantas adultas.</li>
+                            <li><strong>Frutos:</strong> Bayas pequeñas de color anaranjado rojizo cuando maduran.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">4. CARACTERÍSTICAS ECOLÓGICAS Y DE
+                            CULTIVO</h3>
+                        <ul class="space-y-4 text-gray-700">
+                            <li>• <strong>Clima:</strong> Tropical y subtropical.</li>
+                            <li>• <strong>Temperatura ideal:</strong> 18–30 °C.</li>
+                            <li>• <strong>Luz:</strong> Prefiere luz indirecta o semisombra; tolera sombra.</li>
+                            <li>• <strong>Suelo:</strong> Rico en materia orgánica, con buen drenaje y humedad moderada.
+                            </li>
+                            <li>• <strong>Riego:</strong> Moderado, evitando encharcamiento.</li>
+                            <li>• <strong>Propagación:</strong> Principalmente por esquejes del tallo.</li>
+                        </ul>
+                        <br>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+                            <img src="/public/B2-2.jpg" class="o" alt="Palo Bastón">
+                            <img src="/public/B2-3.jpg" class="o" alt="Detalle del tallo">
+                            <img src="/public/B2-4.jpg" class="o" alt="Palo Bastón en entorno">
+                        </div>
+                    </div>
+
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">5. USOS</h3>
+                        <ul class="space-y-6 text-gray-700">
+                            <li><strong>Maderable</strong><br>
+                                La madera de palo bastón es muy apreciada por su alta resistencia mecánica, buena
+                                durabilidad natural y excelente comportamiento en ambientes húmedos.<br>
+                                Se utiliza en construcción rural y urbana, vigas y columnas, pisos y parquet, muebles,
+                                carpintería y ebanistería, mangos de herramientas y postes.</li>
+                            <li><strong>Restauración forestal</strong><br>
+                                Reforestación con especies nativas.<br>
+                                Recuperación de áreas degradadas.<br>
+                                Enriquecimiento de bosques secundarios.</li>
+                            <li><strong>Ambiental</strong><br>
+                                Protección de cuencas hidrográficas.<br>
+                                Conservación de la biodiversidad.<br>
+                                Captura y almacenamiento de carbono.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">6. IMPORTANCIA</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            El palo bastón (Aspidosperma macrocarpon) es una especie apreciada en regiones tropicales
+                            como Madre de Dios por su resistencia, bajo mantenimiento y valor paisajístico, adaptándose
+                            bien a jardines urbanos y ambientes interiores.
+                        </p>
+                    </div>
+
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">7. MANEJO Y CULTIVO</h3>
+                        <ul class="space-y-4 text-gray-700">
+                            <li>• Propagar mediante semillas frescas.</li>
+                            <li>• Plantar en suelos bien drenados y con buena disponibilidad de luz.</li>
+                            <li>• Controlar malezas durante los primeros años.</li>
+                            <li>• Aplicar materia orgánica para favorecer el establecimiento.</li>
+                            <li>• Es recomendable incluir la especie en programas de manejo forestal sostenible.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">8. ADAPTACIÓN EN MADRE DE DIOS</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            El Palo Bastón es una especie nativa bien adaptada a las condiciones climáticas de Madre de
+                            Dios. Se encuentra en bosques naturales de tierra firme y posee un importante valor para el
+                            manejo forestal sostenible y la conservación de los ecosistemas amazónicos.
+                        </p>
+                    </div>
+
+                    <!-- Fuentes -->
+                    <div class="border-l-4 border-emerald-600 pl-6 mb-12">
+                        <h3 class="text-2xl font-semibold text-emerald-700 mb-6">9. FUENTES</h3>
+                        <ol class="list-decimal pl-6 space-y-3 text-gray-700">
+                            <li>Royal Botanic Gardens, Kew – Plants of the World Online (POWO). Información sobre
+                                clasificación taxonómica, distribución y nomenclatura botánica.</li>
+                            <li>Missouri Botanical Garden – Plant Finder: Información de características botánicas,
+                                cultivo y usos.</li>
+                            <li>North Carolina Extension Gardener Plant Toolbox – Datos de crecimiento, manejo, hojas,
+                                flores y requerimientos ambientales.</li>
+                            <li>Integrated Taxonomic Information System (ITIS) – Referencia de clasificación científica.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-16 md:p-20 bg-emerald-700 text-white text-center">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl md:text-4xl font-bold mb-6">Valor Maderable y Ecológico</h2>
+            <p class="text-md leading-relaxed opacity-95">
+                El <strong>Palo Bastón</strong> destaca por la alta resistencia de su madera y su contribución a la
+                conservación de los ecosistemas amazónicos.
+            </p>
+            <p class="mt-8 text-base opacity-80">
+                <em>Aspidosperma macrocarpon Mart.</em> — B2
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>

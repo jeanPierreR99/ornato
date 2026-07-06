@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/public/logo-main.ico">
+    <title>B20 - FICUS | Municipalidad Provincial de Tambopata</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(to bottom, #f0fdf4, #dcfce7);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .dancing {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .hero {
+            background: linear-gradient(to bottom, rgba(5, 40, 15, 0.75), rgba(0, 80, 30, 0.9)),
+                url('/public/hero.jpg') center/cover no-repeat;
+            position: relative;
+        }
+
+        .leaf-deco {
+            position: absolute;
+            font-size: 6rem;
+            opacity: 0.1;
+            pointer-events: none;
+            animation: float 25s infinite linear;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            100% {
+                transform: translateY(-100vh) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body class="text-gray-800 overflow-x-hidden">
+    <!-- HERO -->
+    <header class="hero relative text-white py-40 px-6 text-center overflow-hidden">
+        <div class="leaf-deco left-10 top-20">🌿</div>
+        <div class="leaf-deco right-20 top-40" style="animation-delay: 5s;">🌸</div>
+        <div class="leaf-deco left-32 top-80" style="animation-delay: 10s;">🌳</div>
+        <div class="relative z-10 container mx-auto max-w-7xl">
+            <p class="text-2xl md:text-3xl font-light tracking-widest text-emerald-200 mb-4">MUNICIPALIDAD PROVINCIAL DE
+                TAMBOPATA</p>
+            <h1 class="text-6xl md:text-8xl font-black leading-none mb-6">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-emerald-300">B20 -
+                    FICUS</span>
+            </h1>
+            <p class="text-4xl md:text-6xl dancing text-yellow-300 mb-6">Ficus</p>
+        </div>
+    </header>
+
+    <section class="py-20 px-6 bg-white">
+        <div class="text-justify">
+            <div class="">
+                <div class="container mx-auto max-w-6xl">
+                    <h2 class="text-5xl font-bold text-emerald-700 mb-4 text-center">
+                        Ficus
+                    </h2>
+                    <p class="text-center text-2xl text-emerald-600 mb-12 dancing">Ficus, Laurel de la India, Ficus
+                        benjamina, Higuera llorona</p>
+
+                    <p class="text-center leading-relaxed text-lg text-gray-600 max-w-4xl mx-auto mb-12">
+                        El Ficus, conocido también como laurel de la India o ficus benjamina, es un árbol ornamental
+                        perteneciente a la familia Moraceae. Es una de las especies más utilizadas en parques, jardines,
+                        avenidas y áreas verdes urbanas debido a su copa densa, follaje permanente y gran capacidad para
+                        proporcionar sombra.
+                    </p>
+                    <p class="text-center text-sm text-gray-500 mb-12">Nota: El género Ficus comprende más de 800
+                        especies. En parques y plazas del Perú, la especie ornamental más común es Ficus benjamina.</p>
+
+                    <!-- Dimensiones y Coordenadas -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                        <div class="bg-white p-8 rounded-2xl shadow">
+                            <h3 class="text-2xl font-semibold text-emerald-700 mb-6">DIMENSIONES</h3>
+                            <p><strong>Altura:</strong> 3 metros</p>
+                            <p><strong>DAP:</strong> 12 centímetros</p>
+                        </div>
+                        <div class="bg-white p-8 rounded-2xl shadow">
+                            <h3 class="text-2xl font-semibold text-emerald-700 mb-6">COORDENADAS</h3>
+                            <p><strong>Este (E):</strong> 480865.986</p>
+                            <p><strong>Norte (N):</strong> 8607739.574</p>
+                            <p><strong>Zona / Datum:</strong> 19L / WGS 84</p>
+                        </div>
+                    </div>
+
+                    <!-- Ubicación -->
+                    <div class="mb-16">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-6">1. UBICACIÓN</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Está ubicada en la plaza de armas de la ciudad de Puerto Maldonado ubicado en Jr. Loreto
+                            (frente a la heladería Gustitos del Cura y Empresa Prestadora de Servicios Públicos -
+                            Electro Sur Este) del distrito de Tambopata, provincia de Tambopata Región de Madre de Dios.
+                        </p>
+                    </div>
+
+                    <!-- Clasificación Taxonómica -->
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">2. CLASIFICACIÓN TAXONÓMICA</h3>
+                        <table class="w-full border-collapse border border-emerald-300">
+                            <thead>
+                                <tr class="bg-emerald-700 text-white">
+                                    <th class="border border-emerald-300 p-4 text-left">Categoría</th>
+                                    <th class="border border-emerald-300 p-4 text-left">Clasificación</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Reino</td>
+                                    <td class="border border-emerald-300 p-4">Plantae</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">División</td>
+                                    <td class="border border-emerald-300 p-4">Magnoliophyta (Angiospermae)</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Clase</td>
+                                    <td class="border border-emerald-300 p-4">Magnoliopsida (Dicotiledóneas)</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Orden</td>
+                                    <td class="border border-emerald-300 p-4">Rosales</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Familia</td>
+                                    <td class="border border-emerald-300 p-4">Moraceae</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Género</td>
+                                    <td class="border border-emerald-300 p-4">Ficus</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Especie</td>
+                                    <td class="border border-emerald-300 p-4">Ficus benjamina L.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Sección dos columnas -->
+                <section class="py-20 px-6 bg-gradient-to-b -mx-6 from-emerald-50 to-white">
+                    <div class="container mx-auto max-w-6xl">
+                        <div class="text-center mb-16">
+                            <h2 class="text-4xl font-bold text-emerald-700 mb-4">Ficus benjamina L.</h2>
+                            <p class="text-gray-600 text-lg max-w-3xl mx-auto">
+                                Árbol ornamental de copa densa y follaje permanente muy utilizado en paisajismo urbano.
+                            </p>
+                        </div>
+                        <div class="grid lg:grid-cols-2 gap-12">
+                            <!-- Clasificación científica -->
+                            <div
+                                class="bg-emerald-500 border border-emerald-200 rounded-3xl shadow-xl p-10 backdrop-blur-sm relative overflow-hidden">
+                                <div
+                                    class="absolute -top-10 -right-10 w-40 h-40 bg-emerald-200 rounded-full opacity-30">
+                                </div>
+                                <div
+                                    class="absolute -bottom-10 -left-10 w-60 h-60 bg-yellow-200 rounded-full opacity-30">
+                                </div>
+                                <h3 class="text-3xl font-semibold text-white mb-6">Clasificación científica</h3>
+                                <ul class="space-y-3 text-lg text-gray-100">
+                                    <li><b>Reino:</b> Plantae</li>
+                                    <li><b>División:</b> Magnoliophyta (Angiospermae)</li>
+                                    <li><b>Clase:</b> Magnoliopsida (Dicotiledóneas)</li>
+                                    <li><b>Orden:</b> Rosales</li>
+                                    <li><b>Familia:</b> Moraceae</li>
+                                    <li><b>Género:</b> Ficus</li>
+                                    <li><b>Especie:</b> Ficus benjamina L.</li>
+                                </ul>
+                            </div>
+                            <!-- Características -->
+                            <div class="bg-white shadow-xl border border-gray-200 rounded-3xl p-10 leading-relaxed">
+                                <h3 class="text-3xl font-semibold text-emerald-700 mb-6">Características</h3>
+                                <p class="text-gray-700 mb-4">
+                                    Árbol perennifolio de copa amplia y densa, con hojas brillantes y raíces
+                                    superficiales vigorosas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contenido completo -->
+                <div class="container mx-auto max-w-6xl">
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">3. CARACTERÍSTICAS BOTANICAS</h3>
+                        <div class="float-left md:mr-4 mb-3 w-full md:w-[500px] space-y-2">
+                            <img src="/public/B20.png" alt="Ficus" class="w-full h-[550px] shadow-lg rounded" />
+                        </div>
+                        <ul class="space-y-4 text-gray-700">
+                            <li>• <strong>Hábito:</strong> Árbol perennifolio de copa amplia y densa.</li>
+                            <li>• <strong>Altura:</strong> Entre 10 y 25 m, pudiendo alcanzar hasta 30 m en condiciones
+                                favorables.</li>
+                            <li>• <strong>Diámetro del tronco:</strong> Hasta 1 m o más en ejemplares adultos.</li>
+                            <li>• <strong>Fuste:</strong> Recto, con abundante ramificación.</li>
+                            <li>• <strong>Corteza:</strong> Lisa, de color gris claro.</li>
+                            <li>• <strong>Raíces:</strong> Muy desarrolladas y superficiales; en ocasiones producen
+                                raíces aéreas y pueden levantar veredas o pavimentos.</li>
+                            <li>• <strong>Hojas:</strong> Simples, alternas, ovaladas a elípticas, brillantes, de color
+                                verde intenso, con ápice acuminado.</li>
+                            <li>• <strong>Flores:</strong> Muy pequeñas y ocultas dentro del sicono (estructura típica
+                                del género Ficus).</li>
+                            <li>• <strong>Frutos:</strong> Pequeños siconos esféricos de aproximadamente 1 cm de
+                                diámetro, verdes al inicio y anaranjados o rojizos al madurar.</li>
+                            <li>• <strong>Polinización:</strong> Realizada por avispas específicas del género
+                                Eupristina, en una relación de mutualismo.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">4. CARACTERÍSTICAS ECOLÓGICAS Y DE
+                            CULTIVO</h3>
+                        <ul class="space-y-4 text-gray-700">
+                            <li>• <strong>Origen:</strong> Asia tropical y Australia.</li>
+                            <li>• <strong>Clima:</strong> Tropical y subtropical.</li>
+                            <li>• <strong>Temperatura óptima:</strong> 20–32 °C.</li>
+                            <li>• <strong>Altitud:</strong> Desde el nivel del mar hasta aproximadamente 1 500 m s.n.m.
+                            </li>
+                            <li>• <strong>Luz:</strong> Pleno sol o semisombra.</li>
+                            <li>• <strong>Suelo:</strong> Se adapta a diversos tipos de suelo, aunque prefiere aquellos
+                                fértiles y bien drenados.</li>
+                            <li>• <strong>Riego:</strong> Moderado; tolera períodos cortos de sequía una vez
+                                establecido.</li>
+                            <li>• <strong>Propagación:</strong> Por semillas, esquejes y acodos.</li>
+                            <li>• <strong>Crecimiento:</strong> Rápido.</li>
+                        </ul>
+                        <br>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+                            <img src="/public/B20-2.jpg" class="o" alt="Ficus">
+                            <img src="/public/B20-3.jpg" class="o" alt="Detalle de hojas">
+                            <img src="/public/B20-4.jpg" class="o" alt="Ficus en parque">
+                        </div>
+                    </div>
+
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">5. USOS</h3>
+                        <ul class="space-y-6 text-gray-700">
+                            <li><strong>Ornamental</strong><br>
+                                Muy utilizado en parques, plazas, jardines, avenidas y áreas verdes urbanas.<br>
+                                Excelente árbol de sombra debido a su copa amplia y frondosa.</li>
+                            <li><strong>Paisajístico</strong><br>
+                                Se emplea como árbol aislado, alineaciones y barreras vegetales.<br>
+                                También es popular como planta de interior cuando es joven.</li>
+                            <li><strong>Ambiental</strong><br>
+                                Contribuye a reducir la temperatura urbana.<br>
+                                Captura dióxido de carbono y partículas en suspensión.<br>
+                                Proporciona refugio y alimento a aves e insectos.</li>
+                            <li><strong>Bonsái</strong><br>
+                                Es una de las especies más utilizadas para la formación de bonsáis por su resistencia y
+                                facilidad de poda.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">6. DISTRIBUCIÓN</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Se cultiva ampliamente en regiones tropicales y subtropicales del mundo. En el Perú es común
+                            en parques y jardines de ciudades de la costa, la selva y algunos valles interandinos. En
+                            Madre de Dios se emplea frecuentemente en arborización urbana y paisajismo.
+                        </p>
+                    </div>
+
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">7. RECOMENDACIONES DE MANEJO</h3>
+                        <ul class="space-y-4 text-gray-700">
+                            <li>• Plantar lejos de edificaciones, tuberías y pavimentos debido al vigor de su sistema
+                                radicular.</li>
+                            <li>• Realizar podas periódicas para controlar el tamaño y mantener una copa equilibrada.
+                            </li>
+                            <li>• Vigilar la presencia de cochinillas, ácaros y hongos en ambientes muy húmedos.</li>
+                            <li>• Requiere suficiente espacio para desarrollarse adecuadamente.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Fuentes -->
+                    <div class="border-l-4 border-emerald-600 pl-6 mb-12">
+                        <h3 class="text-2xl font-semibold text-emerald-700 mb-6">8. FUENTES</h3>
+                        <ol class="list-decimal pl-6 space-y-3 text-gray-700">
+                            <li>Royal Botanic Gardens, Kew – Información taxonómica de Ficus benjamina.</li>
+                            <li>Missouri Botanical Garden – Descripción botánica y requerimientos de cultivo.</li>
+                            <li>Food and Agriculture Organization – Información sobre especies arbóreas tropicales.</li>
+                            <li>International Society of Arboriculture – Información sobre manejo y arboricultura
+                                urbana.</li>
+                            <li>Instituto de Investigaciones de la Amazonía Peruana – Publicaciones sobre arborización y
+                                especies ornamentales en la Amazonía peruana.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-16 md:p-20 bg-emerald-700 text-white text-center">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl md:text-4xl font-bold mb-6">Valor Ornamental</h2>
+            <p class="text-md leading-relaxed opacity-95">
+                El <strong>Ficus benjamina</strong> es uno de los árboles más utilizados en paisajismo urbano por su
+                copa densa y follaje permanente.
+            </p>
+            <p class="mt-8 text-base opacity-80">
+                <em>Ficus benjamina L.</em> — B20
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
