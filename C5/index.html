@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/public/logo-main.ico">
+    <title>C5 - GUAYABA | Municipalidad Provincial de Tambopata</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(to bottom, #f0fdf4, #dcfce7);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .dancing {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .hero {
+            background: linear-gradient(to bottom, rgba(5, 40, 15, 0.75), rgba(0, 80, 30, 0.9)),
+                url('/public/hero.jpg') center/cover no-repeat;
+            position: relative;
+        }
+
+        .leaf-deco {
+            position: absolute;
+            font-size: 6rem;
+            opacity: 0.1;
+            pointer-events: none;
+            animation: float 25s infinite linear;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            100% {
+                transform: translateY(-100vh) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body class="text-gray-800 overflow-x-hidden">
+    <!-- HERO -->
+    <header class="hero relative text-white py-40 px-6 text-center overflow-hidden">
+        <div class="leaf-deco left-10 top-20">🌿</div>
+        <div class="leaf-deco right-20 top-40" style="animation-delay: 5s;">🌸</div>
+        <div class="leaf-deco left-32 top-80" style="animation-delay: 10s;">🌳</div>
+        <div class="relative z-10 container mx-auto max-w-7xl">
+            <p class="text-2xl md:text-3xl font-light tracking-widest text-emerald-200 mb-4">MUNICIPALIDAD PROVINCIAL DE
+                TAMBOPATA</p>
+            <h1 class="text-6xl md:text-8xl font-black leading-none mb-6">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-emerald-300">C5 -
+                    GUAYABA</span>
+            </h1>
+            <p class="text-4xl md:text-6xl dancing text-yellow-300 mb-6">Guayaba</p>
+        </div>
+    </header>
+
+    <section class="py-20 px-6 bg-white">
+        <div class="text-justify">
+            <div class="">
+                <div class="container mx-auto max-w-6xl">
+                    <h2 class="text-5xl font-bold text-emerald-700 mb-4 text-center">
+                        Guayaba
+                    </h2>
+                    <p class="text-center text-2xl text-emerald-600 mb-12 dancing">Psidium guajava L.</p>
+
+                    <p class="text-center leading-relaxed text-lg text-gray-600 max-w-4xl mx-auto mb-12">
+                        La guayaba es un árbol frutal tropical de la familia Myrtaceae, ampliamente cultivado por sus frutos de alto valor nutricional, ricos en vitamina C, fibra y antioxidantes. Es una especie nativa de América tropical y se adapta muy bien a las condiciones climáticas de la Amazonía peruana, incluyendo la región de Madre de Dios.
+                    </p>
+
+                    <!-- Dimensiones y Coordenadas -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                        <div class="bg-white p-8 rounded-2xl shadow">
+                            <h3 class="text-2xl font-semibold text-emerald-700 mb-6">DIMENSIONES</h3>
+                            <p><strong>Altura:</strong> 4 metros</p>
+                            <p><strong>DAP:</strong> 10 centímetros</p>
+                        </div>
+                        <div class="bg-white p-8 rounded-2xl shadow">
+                            <h3 class="text-2xl font-semibold text-emerald-700 mb-6">COORDENADAS</h3>
+                            <p><strong>Este (E):</strong> 480818.660</p>
+                            <p><strong>Norte (N):</strong> 8607738.310</p>
+                            <p><strong>Zona / Datum:</strong> 19L / WGS 84</p>
+                        </div>
+                    </div>
+
+                    <!-- Ubicación -->
+                    <div class="mb-16">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-6">1. UBICACIÓN</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Está ubicada en la plaza de armas de la ciudad de Puerto Maldonado ubicado en la AV. León Velarde (frente a la Municipalidad Provincial de Tambopata) del distrito de Tambopata, provincia de Tambopata Región de Madre de Dios.
+                        </p>
+                    </div>
+
+                    <!-- Clasificación Taxonómica -->
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">2. CLASIFICACIÓN TAXONÓMICA</h3>
+                        <table class="w-full border-collapse border border-emerald-300">
+                            <thead>
+                                <tr class="bg-emerald-700 text-white">
+                                    <th class="border border-emerald-300 p-4 text-left">Categoría</th>
+                                    <th class="border border-emerald-300 p-4 text-left">Clasificación</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Reino</td>
+                                    <td class="border border-emerald-300 p-4">Plantae</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">División</td>
+                                    <td class="border border-emerald-300 p-4">Magnoliophyta (Angiospermae)</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Clase</td>
+                                    <td class="border border-emerald-300 p-4">Magnoliopsida (Dicotiledóneas)</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Orden</td>
+                                    <td class="border border-emerald-300 p-4">Myrtales</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Familia</td>
+                                    <td class="border border-emerald-300 p-4">Myrtaceae</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Género</td>
+                                    <td class="border border-emerald-300 p-4">Psidium</td>
+                                </tr>
+                                <tr>
+                                    <td class="border border-emerald-300 p-4">Especie</td>
+                                    <td class="border border-emerald-300 p-4">Psidium guajava L.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Sección dos columnas -->
+                <section class="py-20 px-6 bg-gradient-to-b -mx-6 from-emerald-50 to-white">
+                    <div class="container mx-auto max-w-6xl">
+                        <div class="text-center mb-16">
+                            <h2 class="text-4xl font-bold text-emerald-700 mb-4">Psidium guajava</h2>
+                            <p class="text-gray-600 text-lg max-w-3xl mx-auto">
+                                Árbol frutal emblemático de la Amazonía con alto valor nutricional y cultural.
+                            </p>
+                        </div>
+                        <div class="grid lg:grid-cols-2 gap-12">
+                            <!-- Card 1 -->
+                            <div
+                                class="bg-emerald-500 border border-emerald-200 rounded-3xl shadow-xl p-10 backdrop-blur-sm relative overflow-hidden">
+                                <div
+                                    class="absolute -top-10 -right-10 w-40 h-40 bg-emerald-200 rounded-full opacity-30">
+                                </div>
+                                <div
+                                    class="absolute -bottom-10 -left-10 w-60 h-60 bg-yellow-200 rounded-full opacity-30">
+                                </div>
+                                <h3 class="text-3xl font-semibold text-white mb-6">Nombres comunes</h3>
+                                <ul class="space-y-3 text-lg text-gray-100">
+                                    <li>Guayaba</li>
+                                    <li>Guayabo</li>
+                                    <li>Guava</li>
+                                </ul>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="bg-white shadow-xl border border-gray-200 rounded-3xl p-10 leading-relaxed">
+                                <h3 class="text-3xl font-semibold text-emerald-700 mb-6">Características generales</h3>
+                                <p class="text-gray-700 mb-4">
+                                    Árbol frutal perennifolio de rápido crecimiento, muy apreciado por sus frutos aromáticos y nutritivos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contenido completo -->
+                <div class="container mx-auto max-w-6xl">
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">3. CARACTERÍSTICAS BOTÁNICAS</h3>
+                        <div class="float-left md:mr-4 mb-3 w-full md:w-[500px] space-y-2">
+                            <img src="/public/C5.jpg" alt="Guayaba" class="w-full h-[550px] shadow-lg rounded" />
+                        </div>
+                        <ul class="space-y-4 text-gray-700">
+                            <li>• <strong>Hábito:</strong> Árbol o arbusto perennifolio.</li>
+                            <li>• <strong>Altura:</strong> Entre 3 y 10 m, pudiendo alcanzar hasta 12 m.</li>
+                            <li>• <strong>Tronco:</strong> Corto, muy ramificado, con corteza lisa de color marrón claro o cobrizo que se desprende en placas delgadas.</li>
+                            <li>• <strong>Copa:</strong> Redondeada y frondosa.</li>
+                            <li>• <strong>Hojas:</strong> Simples, opuestas, elípticas u oblongas, de 7–15 cm de longitud, con nervaduras muy marcadas y aroma característico al estrujarlas.</li>
+                            <li>• <strong>Flores:</strong> Blancas, aromáticas, solitarias o en pequeños grupos, con numerosos estambres.</li>
+                            <li>• <strong>Frutos:</strong> Bayas redondas, ovaladas o piriformes, de piel verde a amarilla cuando maduran; la pulpa puede ser blanca, crema, rosada o roja y contiene numerosas semillas pequeñas.</li>
+                            <li>• <strong>Semillas:</strong> Duras, pequeñas y numerosas.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">4. CARACTERÍSTICAS ECOLÓGICAS Y DE CULTIVO</h3>
+                        <ul class="space-y-4 text-gray-700">
+                            <li>• <strong>Origen:</strong> América tropical; estudios indican origen y domesticación en la región neotropical, con fuerte evidencia en el área de Perú.</li>
+                            <li>• <strong>Clima:</strong> Tropical y subtropical.</li>
+                            <li>• <strong>Temperatura óptima:</strong> 20–30 °C.</li>
+                            <li>• <strong>Altitud:</strong> Desde el nivel del mar hasta aproximadamente 1 600 m s.n.m.</li>
+                            <li>• <strong>Precipitación:</strong> 1 000–2 500 mm anuales.</li>
+                            <li>• <strong>Luz:</strong> Requiere pleno sol para una buena producción de frutos.</li>
+                            <li>• <strong>Suelo:</strong> Se adapta a diversos tipos de suelo, aunque prefiere los profundos, fértiles y bien drenados.</li>
+                            <li>• <strong>Propagación:</strong> Por semillas, injertos, estacas y acodos.</li>
+                            <li>• <strong>Crecimiento:</strong> Rápido.</li>
+                            <li>• <strong>Producción:</strong> Generalmente inicia entre los 2 y 4 años.</li>
+                        </ul>
+                        <br>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+                            <img src="/public/C5-2.jpg" class="o" alt="Frutos de guayaba">
+                            <img src="/public/C5-3.jpg" class="o" alt="Flor de guayaba">
+                            <img src="/public/C5-4.jpg" class="o" alt="Árbol de guayaba">
+                        </div>
+                    </div>
+
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">5. USOS</h3>
+                        <ul class="space-y-6 text-gray-700">
+                            <li><strong>a) Alimenticio</strong><br>
+                                Consumo de frutos frescos.<br>
+                                Elaboración de jugos, néctares, mermeladas, jaleas, helados, dulces y conservas.<br>
+                                Fuente importante de vitamina C, fibra, potasio y antioxidantes.</li>
+                            <li><strong>b) Medicinal tradicional</strong><br>
+                                Las hojas se emplean tradicionalmente para preparar infusiones utilizadas en trastornos digestivos, como diarreas leves, y como complemento en el cuidado de la salud. Estos usos tradicionales cuentan con estudios científicos, aunque no sustituyen el tratamiento médico.</li>
+                            <li><strong>c) Ambiental</strong><br>
+                                Sus flores atraen abejas y otros insectos polinizadores.<br>
+                                Sus frutos sirven de alimento para aves y mamíferos.<br>
+                                Se utiliza en sistemas agroforestales y programas de reforestación.</li>
+                            <li><strong>d) Maderable</strong><br>
+                                La madera se emplea en postes, mangos de herramientas, leña y carbón vegetal.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">6. DISTRIBUCIÓN EN EL PERÚ</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            La guayaba se cultiva ampliamente en:<br>
+                            • Madre de Dios<br>
+                            • Loreto<br>
+                            • Ucayali<br>
+                            • San Martín<br>
+                            • Huánuco<br>
+                            • Junín<br>
+                            • Cusco (selva)<br>
+                            • Costa norte y central del Perú<br><br>
+                            En Madre de Dios es frecuente en huertos familiares, parcelas agrícolas y áreas periurbanas.
+                        </p>
+                    </div>
+
+                    <div class="mb-20">
+                        <h3 class="text-3xl font-semibold text-emerald-700 mb-8">7. IMPORTANCIA</h3>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Es uno de los frutales tropicales de mayor valor nutricional.</li>
+                            <li>Favorece la seguridad alimentaria y la economía familiar.</li>
+                            <li>Tiene potencial para la agroindustria y la producción de derivados.</li>
+                            <li>Contribuye a la conservación de polinizadores y de la biodiversidad.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Fuentes -->
+                    <div class="border-l-4 border-emerald-600 pl-6 mb-12">
+                        <h3 class="text-2xl font-semibold text-emerald-700 mb-6">8. FUENTES</h3>
+                        <ol class="list-decimal pl-6 space-y-3 text-gray-700">
+                            <li>Royal Botanic Gardens, Kew – Información taxonómica de Psidium guajava.</li>
+                            <li>Food and Agriculture Organization – Información sobre frutales tropicales.</li>
+                            <li>Artículo científico: The Taming of Psidium guajava: Natural and Cultural History of a Neotropical Fruit.</li>
+                            <li>Revisión científica sobre composición nutricional y propiedades de la guayaba.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-16 md:p-20 bg-emerald-700 text-white text-center">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl md:text-4xl font-bold mb-6">Frutal Emblemático de la Amazonía</h2>
+            <p class="text-md leading-relaxed opacity-95">
+                La <strong>Guayaba</strong> es un tesoro nutricional y cultural de la región.
+            </p>
+            <p class="mt-8 text-base opacity-80">
+                <em>Psidium guajava</em> — C5
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
